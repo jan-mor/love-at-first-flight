@@ -89,7 +89,7 @@ const LetterModal: React.FC<LetterModalProps> = ({ isOpen, onClose }) => {
         <button className="close-button" onClick={handleClose}>×</button>
         <h2>Send a letter to someone you love.</h2>
         <p>
-          Find their address by directing them to the question mark in the top right corner of the screen and input it in the address bar below.
+          Find their address by directing them to the question mark in the top left corner of the screen and input it in the address bar below.
         </p>
         <label>To:</label>
         <input type="text" placeholder="Addressed to" value={address} onChange={handleAddressChange} />
