@@ -80,9 +80,6 @@ const InfoModal: React.FC<InfoModalProps> = ({ isOpen, onClose }) => {
             However, the encoding process is deterministic, meaning that the same input will always yield the same output. We do not protect location 
             data beyond this adjustment, so users should be aware that their approximate location will be visible.
           </p>
-          <p>
-            Use of this site constitutes agreement to these terms.
-          </p>
           <h2>
             Terms of Service
           </h2>
