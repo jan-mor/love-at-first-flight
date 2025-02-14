@@ -6,7 +6,6 @@ The internet doesn't just connect us; it makes possible the relationships we mig
 
 This project is a reflection on that wonder. It’s about messages blinking through networks, racing beneath the ocean on fiber-optic threads. It’s about paper airplanes. It’s about love in motion.
 
-
 ## ✈️ Features
 
 - **Interactive Map**: Built using the [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/), leveraging an [ArcGIS Developer Account](https://developers.arcgis.com/) for basemap access.
@@ -14,7 +13,6 @@ This project is a reflection on that wonder. It’s about messages blinking thro
 - **Geolocation-Based Messaging**: Users can send letters linked to an encoded geographic location.
 - **Supabase Integration**: Messages are stored in a **PostgreSQL** database, managed via [Supabase](https://supabase.com/).
 - **Privacy-Conscious Encoding**: Locations are obfuscated slightly to preserve some level of privacy.
-
 
 ## 📍 How It Works
 
@@ -48,8 +46,6 @@ Clicking on a marker opens a **modal** displaying messages associated with that 
 
 Messages are stored with **timestamps** and formatted to show **date and time**.
 
----
-
 ## 🔐 Privacy & Data Handling
 
 - **Location Obfuscation**: Location coordinates are obtained through the browser and are rounded to three decimal places to slightly obfuscate location.
@@ -57,8 +53,6 @@ Messages are stored with **timestamps** and formatted to show **date and time**.
 - **No Encryption**: While locations are encoded, they are not encrypted. Users should assume that locations can be derived if necessary.
 
 **Note:** Messages **cannot be deleted** once sent.
-
----
 
 ## 📌 Future Improvements
 
@@ -68,7 +62,6 @@ Messages are stored with **timestamps** and formatted to show **date and time**.
 - **Replies & Conversations**: Allow users to reply to messages.
 - **Heatmaps & Data Views**: Introduce visualization tools to explore message distribution across different regions.
 - **Support for Other Time Zones**: Allow users to view timestamps in their preferred / local time zone
----
 
 ## 🛠️ Technologies Used
 
