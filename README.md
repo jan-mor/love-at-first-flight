@@ -61,7 +61,7 @@ Messages are stored with **timestamps** and formatted to show **date and time**.
 - **Improved React State Management**: Refactor state handling for better scalability.
 - **Replies & Conversations**: Allow users to reply to messages.
 - **Heatmaps & Data Views**: Introduce visualization tools to explore message distribution across different regions.
-- **Support for Other Time Zones**: Allow users to view timestamps in their preferred / local time zone
+- **Improve Performance on Mobile**: Enable zoom controls on mobile
 
 ## 🛠️ Technologies Used
 
